@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-   <h1 id="hey" >Replacement method</h1>
+   <h1 id="hey" ></h1>
    <h2 id="hi"></h2>
 </body>
 <script>
@@ -20,9 +20,15 @@
 //     name:"Zynah"
 //   }
 //   document.getElementById("hey").innerHTML=typeof (student)
-  var word= "I hate exams and too much homework"
-  var searchword= word.search("exams")
-  var replace= word.replace("I","You")
-  document.getElementById("hi").innerHTML= replace
+//   
+try{
+    aaaaalert("hello")
+}
+catch(err){
+    document.getElementById("hi").innerHTML=err.message
+    aaaalert("HEYYEYAE")
+}
+
+
 </script>
 </html>
